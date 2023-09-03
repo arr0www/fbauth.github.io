@@ -1,0 +1,6 @@
+{% load socialaccount %}
+
+{% providers_media_js %}
+
+<a href="{% provider_login_url 'facebook' next='/success/' %}">Login with 
+Facebook</a>
